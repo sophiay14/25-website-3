@@ -4,5 +4,11 @@ execute:
   echo: false
 ---
 
+```{r setup}
+library(tidyverse)
+library(knitr)
+```
 
-<img src="tutorial_files/figure-html/unnamed-chunk-4-1.png" width="90%" />
+```{r}
+knitr::include_graphics("size_v_weight.png")
+```
